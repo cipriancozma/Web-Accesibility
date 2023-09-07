@@ -8,6 +8,8 @@ When people talk about web accesibility, they talk about making the app accesibl
 
 ### Types of disabilities
 
+---
+
 - Mobility and physical
 - Cognitive and neurological
 - Visual
@@ -16,6 +18,8 @@ When people talk about web accesibility, they talk about making the app accesibl
 > The web is already accessible, even if your website is not
 
 ### Reasons developers should learn accessibility
+
+---
 
 - It is fun
 - We are the ones making it inaccessible
@@ -27,6 +31,8 @@ When people talk about web accesibility, they talk about making the app accesibl
 
 ### Ways people use the Web
 
+---
+
 - Keyboard only
 - Head wand
 - Mouth stick
@@ -34,6 +40,8 @@ When people talk about web accesibility, they talk about making the app accesibl
 - Screen reader
 
 ### Accesibility Standards
+
+---
 
 Web Content Accesibility Guidelines (WCAG)
 
