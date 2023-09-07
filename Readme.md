@@ -54,3 +54,17 @@ WCAG specifies three different conformance levels:
 > Level A sets a minimum level of accessiblity and does not achieve broad accessibility for many situations. For this reason, University of California recommends AA conformance for all web based information
 
 > WebAIM provides a handy [checklist](https://webaim.org/standards/wcag/checklist "WebAIM Checklist") with their recommendations.
+
+### Screen Readers
+
+---
+
+How they work?
+
+> Screen Readers convert digital text into synthesized speech. They empower users to hear content and navigate with the keyboard.
+
+Related to the alternative text, if a screen reader encounters an image and if it can't find the alt text, it will read the file's name.
+
+### Accessible HTML
+
+---
