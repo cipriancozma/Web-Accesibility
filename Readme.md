@@ -111,3 +111,23 @@ We can give also a tabindex, this will allow keyboard only users to tab to it.
 
 ARIA is a set of attributes that define ways to make web content accessible for people with disabilities.
 [ARIA: Roles, states and properties](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques "ARIA: Roles, states and description")
+
+#### Live Regions
+
+Applications can become very dynamic. For cases where important information could be coming in at any time, the ARIA spec provides the ability to mark an element as containing live data so that screen readers can read out updates as they come.
+
+Think of using the Uber app to hail a ride. At first your status will be "waiting for a ride" but at an undetermined time it will change to "drive en route". We could:
+
+`<div aria-live="assertive">Waiting for a ride</div>`
+
+Then all we have to do is update the content of the div and any assistive technology will let the user know.
+
+The value that you pass in the aria-live is a politeness setting. You can pass:
+
+- assertive - will interrupt whatever it's doing to announce
+- polite - will announce the live region update when it next idles
+- off - will not read the update
+
+### Focus Management
+
+---
