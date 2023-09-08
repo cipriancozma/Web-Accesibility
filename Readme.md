@@ -68,3 +68,30 @@ Related to the alternative text, if a screen reader encounters an image and if i
 ### Accessible HTML
 
 ---
+
+#### Semantic Elements
+
+Some elements have semantic meaning but no special functionality (e.g. aside, footer, header)
+
+Other's provide a lot of built in functionality such as: button, input, textarea.
+
+#### HTML Labels
+
+A better option is to use HTML label tag which will allow screen readers to recite the label when the field is focused.
+
+#### Limitations with label tag
+
+The label tag can only work with "labelable" elements. Those include:
+
+- button
+- input
+- keygen
+- meter
+- output
+- progress
+- select
+- textarea
+
+If you ever need to label an element not on that list, use **aria-label** instead.
+
+#### Buttons
