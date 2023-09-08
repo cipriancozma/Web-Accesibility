@@ -95,3 +95,12 @@ The label tag can only work with "labelable" elements. Those include:
 If you ever need to label an element not on that list, use **aria-label** instead.
 
 #### Buttons
+
+If we are in the situation of using a div instead of a button, we can give it an ARIA role, this will let screen readers know the element can be clicked (role="button")
+We can give also a tabindex, this will allow keyboard only users to tab to it.
+
+`<div role="button" tabindex="0" onclick="alert("hello")">Click me!</div`
+
+> Don't forget about keyboard only users!
+
+`<div aria-label="Alert the word hello" role="button" tabindex="0" onclick="alert("hello")" onkeyup="alert("hello again")">Click me!</div`
