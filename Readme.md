@@ -104,3 +104,10 @@ We can give also a tabindex, this will allow keyboard only users to tab to it.
 > Don't forget about keyboard only users!
 
 `<div aria-label="Alert the word hello" role="button" tabindex="0" onclick="alert("hello")" onkeyup="alert("hello again")">Click me!</div`
+
+### ARIA
+
+---
+
+ARIA is a set of attributes that define ways to make web content accessible for people with disabilities.
+[ARIA: Roles, states and properties]("https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques" "ARIA: Roles, states and description")
