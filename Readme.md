@@ -110,4 +110,4 @@ We can give also a tabindex, this will allow keyboard only users to tab to it.
 ---
 
 ARIA is a set of attributes that define ways to make web content accessible for people with disabilities.
-[ARIA: Roles, states and properties]("https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques" "ARIA: Roles, states and description")
+[ARIA: Roles, states and properties](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques "ARIA: Roles, states and description")
