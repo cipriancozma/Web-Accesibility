@@ -146,16 +146,17 @@ You can use the tab key to navigate to the next tabbable item and shift+tab to n
 
 Tabbable elements include:
 
-- <a>
-- <button>
-- <input>
-- <select>
-- <textarea>
-- <iframe>
+- `<a>`
+- `<button>`
+- `<input>`
+- `<select>`
+- `<textarea>`
+- `<iframe>`
 
 These are only a part of them.
 
 To make an element tabbable, you can add the tabindex attribute to any element like this:
+
 `<div tabindex="0">I'm focusable</div>`
 
 Tabindex values:
