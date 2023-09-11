@@ -131,3 +131,35 @@ The value that you pass in the aria-live is a politeness setting. You can pass:
 ### Focus Management
 
 ---
+
+#### Keyboard only users
+
+Using of shortcuts for almost any action which are great for both keyboard users and power users.
+
+#### Skip links
+
+Skip links help users skip over large headers and navigation and jump right into the main content of your site.
+
+#### Tab navigation
+
+You can use the tab key to navigate to the next tabbable item and shift+tab to navigate to the previous item.
+
+Tabbable elements include:
+
+- <a>
+- <button>
+- <input>
+- <select>
+- <textarea>
+- <iframe>
+
+These are only a part of them.
+
+To make an element tabbable, you can add the tabindex attribute to any element like this:
+`<div tabindex="0">I'm focusable</div>`
+
+Tabindex values:
+
+- a negative value means that the element should be focusable, but should not be reachable via sequential keyboard navigation
+- 0 means that the element should be focusable and reachable via sequantial keyboard navigation, but its relative order is defined by the platform convention
+- a positive value means should be focusable and reachable via sequential keyboard navigation. If several elements share the same tabindex, their relative order follows their relative position in the document
