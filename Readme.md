@@ -190,3 +190,20 @@ For checking markup issues: [HTML Validator](https://validator.w3.org/feed/ "HTM
 #### Neurocognitive - Reduced Motion
 
 Users can set a "prefers reduced motion" setting in their operating system and we can read that setting from the CSS and swap out animations with more subtle effects
+
+An amazing API is one that allows us to detect if the user prefers a light or dark colorscheme.
+
+HTML
+`<div class="wrapper">... </div>`
+
+CSS
+`@media(prefers-color-scheme: dark) {
+    .wrapper {
+        background: black;
+    }
+}
+@media(prefers-color-scheme: light) {
+    .wrapper {
+        background: white;
+    }
+}`
