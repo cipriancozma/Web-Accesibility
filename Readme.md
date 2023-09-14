@@ -164,3 +164,29 @@ Tabindex values:
 - a negative value means that the element should be focusable, but should not be reachable via sequential keyboard navigation
 - 0 means that the element should be focusable and reachable via sequantial keyboard navigation, but its relative order is defined by the platform convention
 - a positive value means should be focusable and reachable via sequential keyboard navigation. If several elements share the same tabindex, their relative order follows their relative position in the document
+
+### Visual Considerations
+
+---
+
+To check color contrast online, use the [WebAIM contrast checker](https://webaim.org/resources/contrastchecker/ "WebAIM contrast checker")
+
+#### Colors and forms
+
+An important consideration for colorblind users is making sure that color isn't the only way users can tell if there is an error with the form. For instance, a red ring is not enough. Considering adding an icon or an error label.
+
+#### Visual impairments
+
+To simulate a number of visual impairments on any website, you can check out NoCoffee for Firefox.
+
+#### Setting Language & Fixing Markup
+
+Set the lang attribute both on the top level html tag as well as any sections where the language deviates from it
+
+It is important to fix markup errors, it is recommended that you find and fix the validation or parsing errors in HTML.
+
+For checking markup issues: [HTML Validator](https://validator.w3.org/feed/ "HTML Validator")
+
+#### Neurocognitive - Reduced Motion
+
+Users can set a "prefers reduced motion" setting in their operating system and we can read that setting from the CSS and swap out animations with more subtle effects
