@@ -200,13 +200,13 @@ HTML
 CSS
 
 `@media(prefers-color-scheme: dark) {
-.wrapper {
-background: black;
-}
-}
+    .wrapper {
+        background: black;
+    }
+}`
 
-@media(prefers-color-scheme: light) {
-.wrapper {
-background: white;
-}
+`@media(prefers-color-scheme: light) {
+    .wrapper {
+        background: white;
+    }
 }`
