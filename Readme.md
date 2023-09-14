@@ -194,16 +194,19 @@ Users can set a "prefers reduced motion" setting in their operating system and w
 An amazing API is one that allows us to detect if the user prefers a light or dark colorscheme.
 
 HTML
+
 `<div class="wrapper">... </div>`
 
 CSS
+
 `@media(prefers-color-scheme: dark) {
-    .wrapper {
-        background: black;
-    }
+.wrapper {
+background: black;
 }
+}
+
 @media(prefers-color-scheme: light) {
-    .wrapper {
-        background: white;
-    }
+.wrapper {
+background: white;
+}
 }`
